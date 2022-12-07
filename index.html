@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listar PHP</title>
+
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.css' integrity='sha512-c9N/Xq0n4rQdyCXF4RgrRYAAOSnNJDp8NWILsSUx+33zWyaMbXXvqajgO0UXybRdTGVpxq3FBrcGwabkWsT8OA==' crossorigin='anonymous'/>
+
+</head>
+<body class="bg-dark d-flex justify-content-center align-items-center" style="height: 100vh">
+    
+
+    <div class="container">
+        <div class="col-xs-12">
+          <div class="card">
+            <div class="card-header">
+        <a href="html/formulario.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true"">agregar</a>
+
+        <h2 class="w-100 text-center mb-4">Lista de usuarios</h2>
+        <div class="card-body table-responsive p-0">
+        <table class="table table-hover text-nowrap">
+
+            <thead class="table-dark">
+                <tr>
+                    <th>Id</th>
+                    <th>Fecha</th>
+                    <th>Hora</th>
+                    <th>Tipo</th>
+                    <th>Hermanos</th>
+                    <th>Niños</th>
+                    <th>visitas</th>
+                    <th>total</th>
+                </tr>
+            </thead>
+            <tbody id="table_data"></tbody>
+
+        </table>
+        </div>
+
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
